@@ -1,0 +1,138 @@
+/**
+ * @brief Use this file to enter the answers to the questions listed in README.md
+ * 
+ * @author Mila Gmerek
+ * 
+ */
+
+Q1: 
+
+*
+*
+*
+*
+*
+*
+
+Q2:
+
+*
+**
+***
+****
+*****
+******
+
+Q3:
+
+When static int is used, each time the function is called, the value of x
+is remembered. When x was just a typical int, it returned one '*' each time.
+As a static int, the value is remembered, so the number of '*' increases
+each time.
+
+Q4:
+
+Removing static means that the value of x will not be remembered each time.
+
+Q5:
+
+int main(){
+    int *ptr; // pointer
+    ptr = new int;// pointer is pointing to new int
+    
+    cout << "Address of new integer: " << ptr << endl;
+
+    delete ptr;
+    
+    return 0;
+ }
+
+//Address of new integer: 0x1f7eeb0
+
+Q6:
+
+int main(){
+    int *ptr; // pointer
+    ptr = new int;// pointer is pointing to new int
+    
+    cout << "Address of pointer: " << &ptr << endl;
+
+    delete ptr;
+    
+    return 0;
+ }
+
+//Address of pointer: 0x7ffed1319318
+
+Q7:
+
+2402is stored at 0xbe8eb0
+
+2411is stored at 0xbe8eb0
+
+Q8:
+
+942945331is stored at 0x1feeed4
+
+544434481is stored at 0x1feeed8
+
+Q9:
+
+10 numbers in the output
+
+
+Q10:
+
+1804289383
+846930886
+1681692777
+1714636915
+1957747793
+Resized
+424238335
+719885386
+1649760492
+596516649
+1189641421
+Resized
+1025202362
+1350490027
+783368690
+1102520059
+2044897763
+
+
+Q11:
+
+0
+0
+0
+0
+0
+Resized
+0
+0
+0
+0
+0
+Resized
+0
+0
+0
+0
+0
+Resized
+0
+0
+0
+0
+0
+Resized
+0
+0
+0
+0
+0
+Resized
+
+
